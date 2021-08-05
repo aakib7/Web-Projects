@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #f1f1ff;
+}
+
+.main-nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 60px;
+    background-color:antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    z-index:100;
+}
+
+.toggle-btn{
+    width: 60px;
+    height: 100%;
+    background-color: white;
+    cursor: pointer;
+    background-image: url('1.png') ;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.main-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+.main-nav ul li{
+    list-style: none;
+    line-height: 60px;
+}
+
+.main-nav ul li a{
+    display: block;
+    height: 100%;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 600;
+}
+.side-bar{
+    position: fixed;
+    left:0;
+    bottom:0;
+    background-color: black;
+    width: 60px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    z-index:1000;
+    transition: all 0.4s ease-in-out;
+}
+.side-bar ul{
+    padding-top: 1.5rem;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    visibility: hidden;
+    overflow: hidden;
+
+}
+.side-bar ul li{
+    line-height: 60px;
+    list-style: none;
+}
+.side-bar ul li span,.side-bar ul li a{
+    display: block;
+    height: 60px;
+    padding: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    white-space: 16px;
+    transition: all 0.4s ease-in-out;
+
+}
