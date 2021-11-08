@@ -1,0 +1,78 @@
+.a {
+  border: 2px solid black;
+}
+.b {
+  border: 2px solid red;
+}
+.white-color {
+  color: #fff;
+}
+.card-margin {
+  margin-left: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.brand-name {
+  color: #5f6368;
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.38125rem;
+  position: relative;
+  top: 1px;
+}
+.icon-margin {
+  margin-left: 50px;
+}
+.icon-text {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  top: -5px;
+}
+.top {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-style {
+  height: 280px;
+  border-radius: 10px;
+}
+.card-img {
+  height: 100px;
+  width:  100%px;
+  background-image: url("https://www.gstatic.com/classroom/themes/img_backtoschool.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h5 {
+  margin-top: 10px;
+}
+.card-center {
+  height: 137px;
+  position: relative;
+ 
+}
+.author-card {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  right: 16px;
+  top: -30px;
+  background-color: yellow;
+  
+}
+.card-footer{
+
+    height:60px;
+    background-color: white;
+}
+.folder{
+  float:right;
+}
